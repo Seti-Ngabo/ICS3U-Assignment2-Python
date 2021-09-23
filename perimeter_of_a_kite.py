@@ -5,8 +5,6 @@
 # This program calculates the perimeter of a kite
 #   with user input
 
-import math
-
 
 def main():
     # this function calculates the perimeter
@@ -16,6 +14,7 @@ def main():
     # input
     side_a = int(input("Enter the dimension of side A (cm): "))
     side_b = int(input("Enter the dimension of side B (cm): "))
+    print("")
 
     # process
     perimeter = 2 * (side_a + side_b)
